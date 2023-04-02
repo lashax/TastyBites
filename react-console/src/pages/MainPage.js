@@ -3,9 +3,9 @@ import { useEffect, useState } from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Button from "@mui/material/Button";
-import { Stack } from "@mui/material";
+import { Paper, Stack } from "@mui/material";
 
-const RecipeForm = () => {
+const MainPage = () => {
     const [name, setName] = useState('');
     const [price, setPrice] = useState('');
     const [recipes, setRecipes] = useState([]);
@@ -18,7 +18,8 @@ const RecipeForm = () => {
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(recipe)
         }).then(() => {
-            console.log('new added');
+            setName('');
+            setPrice('');
         })
     }
 
@@ -27,8 +28,6 @@ const RecipeForm = () => {
             .then((res) => res.json())
             .then(result => setRecipes(result))
     }, [])
-
-    console.log(recipes)
 
     return (
         <Stack display={'flex'} direction={'column'} alignItems={'center'}>
@@ -47,8 +46,17 @@ const RecipeForm = () => {
             </Box>
             <Button color="success" variant="contained" sx={{width: 100, mt: 1}}
                     onClick={handleSubmitClick}>Submit</Button>
+            <Paper elevation={2} sx={{mt: 4, width: 600}}>
+                {recipes.map(recipe => (
+                    <Paper elevation={4} sx={{margin: 3, padding: 3, textAlign: 'left'}} key={recipe.id}>
+                        ID: {recipe.id} <br/>
+                        Name: {recipe.name}<br/>
+                        Price: ${recipe.price}<br/>
+                    </Paper>
+                ))}
+            </Paper>
         </Stack>
     );
 }
 
-export default RecipeForm;
+export default MainPage;

@@ -1,11 +1,14 @@
 import './App.css';
+import Appbar from "../components/Appbar";
+import MainPage from "../pages/MainPage";
 
-function App() {
-  return (
-    <div className="App">
-      This is test
-    </div>
-  );
+const App = () => {
+    return (
+        <div className="App">
+            <Appbar/>
+            <MainPage/>
+        </div>
+    );
 }
 
 export default App;
