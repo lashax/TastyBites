@@ -1,6 +1,6 @@
 package com.tsu.tastybites.service;
 
-import com.tsu.tastybites.model.Recipe;
+import com.tsu.tastybites.entity.Recipe;
 
 import java.util.List;
 

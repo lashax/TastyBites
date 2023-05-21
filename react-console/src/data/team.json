@@ -1,0 +1,42 @@
+[
+    { 
+        "name": "გიგი ბერიძე", 
+        "role": "Frontend Developer",
+        "image": "/images/gigi.jpg",
+        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
+        "github": "github.com",
+        "facebook": "facebook.com"
+    },
+    { 
+        "name": "ლაშა შეროზია", 
+        "role": "Backend Developer",
+        "image": "/images/lasha.jpg",
+        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
+        "github": "github.com",
+        "facebook": "facebook.com"
+    },
+    { 
+        "name": "მარიამ ანთიძე", 
+        "role": "Publisher",
+        "image": "/images/mariami.jpg",
+        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
+        "github": "github.com",
+        "facebook": "facebook.com"
+    },
+    { 
+        "name": "ლანა დანდროშვილი", 
+        "role": "System Administrator",
+        "image": "/images/lana.jpg",
+        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
+        "github": "github.com",
+        "facebook": "facebook.com" 
+    },
+    { 
+        "name": "ნინო დაუთაშვილი", 
+        "role": "Web Developerp",
+        "image": "/images/nino.jpg",
+        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
+        "github": "github.com",
+        "facebook": "facebook.com" 
+    }
+]

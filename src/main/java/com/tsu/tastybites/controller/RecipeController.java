@@ -1,6 +1,6 @@
 package com.tsu.tastybites.controller;
 
-import com.tsu.tastybites.model.Recipe;
+import com.tsu.tastybites.entity.Recipe;
 import com.tsu.tastybites.service.RecipeService;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

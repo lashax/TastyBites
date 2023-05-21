@@ -1,0 +1,169 @@
+.section-header {
+    margin-top: 100px;
+}
+.contact-info{
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-info-block{
+    max-width: 150px;
+    height: 150px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.fa-map-marker-alt, .fa-phone,
+.fa-paper-plane, .fa-globe-africa{
+    font-size: 30px;
+}
+.rounded{
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e33d26; 
+}
+.contact-info-block p{
+    font-size: 20px;
+}
+.rounded-info {
+    height: 40px;
+}
+.contact-us-form{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    border: solid 2px rgb(235, 231, 231);
+    box-shadow: 2px 5px 100px 2px rgb(219, 167, 167);
+    flex-wrap: wrap;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+}
+.ganivi-location{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+iframe {
+    border: none;
+}
+.send-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-header h3{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(61, 6, 6);
+}
+.send-form{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.form-group{
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+.form-group input,
+.form-group textarea{
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+}
+.form-group button {
+    width: 200px;
+}
+textarea{
+    resize:vertical;
+}
+#snackbar {
+    visibility: hidden; 
+    min-width: 250px;
+    margin-left: -125px; 
+    background-color: rgb(61, 61, 61); 
+    color: rgb(86, 175, 27); 
+    text-align: center; 
+    border-radius: 2px; 
+    padding: 16px; 
+    position: fixed; 
+    z-index: 1;
+    left: 50%; 
+    bottom: 30px;
+}
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+.contact-error {
+    color: var(--light-red);
+    display: inline-flex;
+    margin-top: 10px;
+}
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}  
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}  
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}  
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@media screen and (max-width: 1024px) {
+    .section-header h2 {
+        font-size: 34px;
+        letter-spacing: 0px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contact-info {
+        justify-content: center;
+    }
+    .section-header h2 {
+        font-size: 26px;
+    }
+    .ganivi-location iframe{
+        width: 100%;
+    }
+    .text-header h3 {
+        text-align: center;
+    }
+}

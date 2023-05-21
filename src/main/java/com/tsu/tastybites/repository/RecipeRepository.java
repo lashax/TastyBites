@@ -1,6 +1,6 @@
 package com.tsu.tastybites.repository;
 
-import com.tsu.tastybites.model.Recipe;
+import com.tsu.tastybites.entity.Recipe;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
