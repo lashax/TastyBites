@@ -21,11 +21,17 @@ public class UserController {
         this.userService = userService;
     }
 
+    /**
+     * რეგისტრაციისას მომხმარებლის შენახვა.
+     */
     @PostMapping(path = "/save")
     public String saveUser(@RequestBody User user) {
         return userService.addUser(user);
     }
 
+    /**
+     * მომხმარებლის შესვლა (დალოგინება) იმეილისა და პაროლის მეშვეობით.
+     */
     @PostMapping(path = "/login")
     public ResponseEntity<LoginResponse> loginUser(@RequestBody User user) {
         LoginResponse loginResponse = userService.loginUser(user);
