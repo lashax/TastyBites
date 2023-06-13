@@ -81,19 +81,19 @@ const Contact = () => {
                 <div className="contact-info">
                     <div className="contact-info-block">
                         <div className="rounded">
-                            <img src={LocationIcon} alt="locationIcon" />
+                            <img src={PhoneIcon} alt="phoneIcon" />
                         </div>
                         <div className="rounded-info">
-                            <h4>ტელეფონი</h4>
-                            <span>+995 577 59 73 35</span>
+                            <h4>ტელეფონი:</h4>
+                            <span>+995 555-55-55-55</span>
                         </div>
                     </div>
                     <div className="contact-info-block">
                         <div className="rounded">
-                            <img src={PhoneIcon} alt="phoneIcon" />
+                            <img src={LocationIcon} alt="locationIcon" />
                         </div>
                         <div className="rounded-info">
-                            <h4>მისამართი</h4>
+                            <h4>მისამართი:</h4>
                             <span>თსუ მე-11 კორპუსი(განივი), უნივერსიტეტის ქ.13</span>
                         </div>
                     </div>
@@ -102,8 +102,8 @@ const Contact = () => {
                             <img src={EmailIcon} alt="emailIcon" />
                         </div>
                         <div className="rounded-info">
-                            <h4>მეილი</h4>
-                            <span>info@mail.ru</span>
+                            <h4>მეილი:</h4>
+                            <span>tastybites.contactus@gmail.com</span>
                         </div>
                     </div>
                     <div className="contact-info-block">
@@ -111,8 +111,8 @@ const Contact = () => {
                             <img src={EarthIcon} alt="earthIcon" />
                         </div>
                         <div className="rounded-info">
-                            <h4>პროექტის კოდი</h4>
-                            <span>github.com</span>
+                            <h4>პროექტის კოდი:</h4>
+                            <span><a href = "https://github.com/lashax/TastyBites-TSU" target="_blank">TastyBites-TSU</a></span>
                         </div>
                     </div>
                 </div>
