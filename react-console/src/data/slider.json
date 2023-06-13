@@ -1,17 +1,17 @@
 [
     { 
-        "title": "Most Popular Homemade Recipes", 
-        "btn-title": "explore now",
-        "image": "/images/slide-1.png" 
+        "title": "Explore Georgian Cuisine", 
+        "btn-title": "Read More",
+        "image": "/images/foodbg1.webp" 
     },
     { 
-        "title": "Our 10 Most Popular Recipes", 
-        "btn-title": "explore now",
-        "image": "/images/slide-2.png" 
+        "title": "Explore Foreign Cuisine", 
+        "btn-title": "Read More",
+        "image": "/images/foodbg2.jpg" 
     },
     { 
-        "title": "Best Review Recipe 2019", 
-        "btn-title": "read more",
+        "title": "Explore Interesting Blogs", 
+        "btn-title": "Read More",
         "image": "/images/slide-3.png" 
     }
 

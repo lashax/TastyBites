@@ -1,0 +1,14 @@
+.languagedropdownicon {
+    width: 50px;
+    height: 50px;
+}
+.css-1ka5eyc-MuiPaper-root-MuiMenu-paper-MuiPopover-paper{
+    top: 100px !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .css-1ka5eyc-MuiPaper-root-MuiMenu-paper-MuiPopover-paper{
+        top: 450px !important;
+        left: 100px !important;
+    }
+}

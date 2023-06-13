@@ -11,6 +11,10 @@
     z-index: 999999;
     transition: height .3s ease-in-out;
 }
+.logo img{
+    width: 190px;
+    height: 190px;
+}
 .activee {
     height: 80px;
 }
@@ -73,7 +77,7 @@
     }
     .menu,
     .login {
-        display: block; 
+        display: flex; 
     }
     .login button:last-child {
         margin-left: 10px;
@@ -87,6 +91,10 @@
     }
     .activee {
         height: 60px;
+    }
+    .logo img{
+        width: auto;
+        height: auto;
     }
 }
 @media screen and (max-width: 728px) {

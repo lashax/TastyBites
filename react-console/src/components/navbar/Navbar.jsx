@@ -5,6 +5,7 @@ import Logo from '/images/logo.svg'
 import './navbar.css'
 import Dropdown from "../UI/Dropdown";
 import Button from "../UI/Button";
+import LanguageDropdown from "../UI/LanguageDropdown";
 
 const Navbar = () => {
     const [isShown, setIsShown] = useState(false);
@@ -26,17 +27,16 @@ const Navbar = () => {
         <div className="navbar-section">
             <div className={active ? "navbar activee" : "navbar"}>
                 <div className='logo'>
-                <NavLink to="/">
-                    <img src={Logo} alt="logo" />
+                    <NavLink to="/">
+                        <img src={Logo} alt="logo" />
                     </NavLink>
                 </div>
             <div className='menu'>
                 <NavLink to="/" >Home</NavLink>
-                <NavLink to="/recipes" >Recipes</NavLink>
-                <Dropdown name="Events" />
-                <Dropdown name="Blog" />
-                <Dropdown name="Pages" />
+                <Dropdown name="Recipes" />
+                <NavLink to="/blog" >Blogs</NavLink>
                 <NavLink to="/about" >About Us</NavLink>
+                <NavLink to="/contact" >Contact Us</NavLink>
             </div>
             <div className="login">
                 <NavLink to="/auth/register">
@@ -45,6 +45,7 @@ const Navbar = () => {
                 <NavLink to="/auth/login">
                     <Button name="Login" />
                 </NavLink>
+                <LanguageDropdown />
             </div>   
             <button className='show-mobile-menu-button' onClick={toggleMobileMenu}>
                 &#8801;
