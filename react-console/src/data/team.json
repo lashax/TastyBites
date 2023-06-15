@@ -3,40 +3,40 @@
         "name": "გიგი ბერიძე", 
         "role": "Frontend Developer",
         "image": "/images/gigi.jpg",
-        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
-        "github": "github.com",
-        "facebook": "facebook.com"
+        "comment": "“ამ პროექტზე მუშაობამ ბევრი რამ მასწავლა და გამზარდა, როგორც ვებ დეველოპერი”",
+        "github": "https://github.com/gigi-beridze",
+        "facebook": "https://www.facebook.com/gigi.beridze.71"
     },
     { 
         "name": "ლაშა შეროზია", 
         "role": "Backend Developer",
         "image": "/images/lasha.jpg",
-        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
-        "github": "github.com",
-        "facebook": "facebook.com"
+        "comment": "“ჯგუფურად პროექტზე მუშაობა სტრესული, მაგრამ ამავე დროს საინტერესო და სასიამოვნო პროცესი იყო.”",
+        "github": "https://github.com/lashax?tab=repositories",
+        "facebook": "https://www.facebook.com/lashasherozia05"
     },
     { 
         "name": "მარიამ ანთიძე", 
-        "role": "Publisher",
+        "role": "Project Planner | Web Designer | Information Researcher",
         "image": "/images/mariami.jpg",
-        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
-        "github": "github.com",
-        "facebook": "facebook.com"
+        "comment": " “ამ პროექტზე მუშაობისას გზად შეგვხვდა ბევრი სირთულე და საინტერესო გამოწვევა, რამაც ჯგუფის ყველა წევრი გაგვზარდა როგორც პროფესიონალი და შეგვმატა გამოცდილება.”",
+        "github": "https://github.com/Mariam-Antidze?tab=repositories",
+        "facebook": "https://www.facebook.com/profile.php?id=100004783933369"
     },
     { 
-        "name": "ლანა დანდროშვილი", 
-        "role": "System Administrator",
+        "name": "ლანა სანდროშვილი", 
+        "role": "Manual Tester | Information Researcher",
         "image": "/images/lana.jpg",
-        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
+        "comment": "“ამ ვებ-საიტის ტესტირება ჩემთვის მეტად საინტერესო იყო. მასწავლა დეტალებზე ორიენტირების მნიშვნელობა და ჯგუფური მუშაობა. ”",
         "github": "github.com",
-        "facebook": "facebook.com" 
+        "facebook": "https://www.facebook.com/lana.sandroshvili" 
     },
     { 
         "name": "ნინო დაუთაშვილი", 
-        "role": "Web Developerp",
+        "role": "MarkUp Developer | Market Research Analyst | Information Researcher",
         "image": "/images/nino.jpg",
-        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
-        "github": "github.com",
-        "facebook": "facebook.com" 
+        "comment": "“ჩვენს პროფესიაში გუნდური მუშაობის უნარის გამომიშავება ძალიან მნიშვნელოვანია, ამ პროექტმა კი ამის შესაძლებლობა მოგვცა.”",
+        "github": "https://github.com/n1nni",
+        "facebook": "https://www.facebook.com/profile.php?id=100010326634316" 
     }
 ]

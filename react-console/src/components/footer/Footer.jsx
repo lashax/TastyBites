@@ -1,3 +1,4 @@
+import { Divider } from "@mui/material";
 import { NavLink } from "react-router-dom";
 import "./footer.css"
 
@@ -6,60 +7,53 @@ const Footer = () => {
         <div className="footer">
             <div className="footer-section">
                 <div className="footer-about">
-                    <h3>about taplak</h3>
-                    <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
+                    <h3>ჩვენი ვებ-საიტის შესახებ</h3>
+                    <p>საიტის მიზანია შევქმნათ ისეთი მრავალფუნქციური ვებ-საიტი, სადაც მომხმარებელს შეეძლება რეცეპტის არჩევა, რის შემდეგაც მიჰყვება მომზადების ინსტრუქციას და შეძლებს სასურველი კერძის მომზადებას, ისე რომ წინასწარ ეცოდინება კერძზე დახარჯული თანხა, მის მოსამზადებლად დახარჯული დრო და კვებითი ღირებულება.</p>
                 </div>
                 <div className="footer-links">
-                    <h3>stay updated</h3>
+                    <h3>მეტი ჩვენს შესახებ</h3>
                     <div className="footer-links-ul">
                         <ul className="footer-nav">
                             <NavLink to="/">
-                                <img src="/images/arrow.svg" alt="" />
-                                Home
+                                <img src="/images/arrow.svg" alt="arrow" />
+                                მთავარი
                             </NavLink>
-                            <NavLink to="/">
-                                <img src="/images/arrow.svg" alt="" />
-                                Recipes
+                            <NavLink to="/Recipes">
+                                <img src="/images/arrow.svg" alt="arrow" />
+                                რეცეპტები
                             </NavLink>
-                            <NavLink to="/">
-                                <img src="/images/arrow.svg" alt="" />
-                                Blog
+                            <NavLink to="/blog">
+                                <img src="/images/arrow.svg" alt="arrow" />
+                                ბლოგები
+                            </NavLink>
+                            <NavLink to="/about">
+                                <img src="/images/arrow.svg" alt="arrow" />
+                                ჩვენს შესახებ
                             </NavLink>
                             <NavLink to="/contact">
-                                <img src="/images/arrow.svg" alt="" />
-                                Contact Us
-                            </NavLink>
-                            <NavLink to="/">
-                                <img src="/images/arrow.svg" alt="" />
-                                About Us
+                                <img src="/images/arrow.svg" alt="arrow" />
+                                კონტაქტი
                             </NavLink>
                         </ul>
                         <ul className="footer-info">
-                            <NavLink to="/">
+                            <div>
                                 <img src="/images/footer-map.svg" alt="" />
-                                Tbilisi, Saburtalo street
-                            </NavLink>
-                            <NavLink to="/">
+                                Tbilisi, University Street #13
+                            </div>
+                            <div>
                                 <img src="/images/mobile.svg" alt="" />
-                                +995 555-55-55-55
-                            </NavLink>
-                            <NavLink to="/">
+                                +995 577-59-73-35
+                            </div>
+                            <div>
                                 <img src="/images/mail.svg" alt="" />
-                                mail@gmail.com
-                            </NavLink>
+                                tastybites.contactus@gmail.com  
+                            </div>
                         </ul>
                     </div>
                 </div>
             </div>
             <div className="footer-end">
-                <p>© 2023 Taplak Web Template. Made with  &hearts; by Tasty Bites </p>
-                <ul>
-                    <NavLink to="/">Home</NavLink>
-                    <NavLink to="/">Recipes</NavLink>
-                    <NavLink to="/">Blog</NavLink>
-                    <NavLink to="/contact">Contact Us</NavLink>
-                    <NavLink to="/">About Us</NavLink>
-                </ul>
+                <p>2023 TASTYBITES &#169; ALL RIGHTS RESERVED.</p>
             </div>
         </div>
     )
