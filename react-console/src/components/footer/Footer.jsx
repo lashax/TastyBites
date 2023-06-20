@@ -42,7 +42,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <img src="/images/mobile.svg" alt="" />
-                                +995 555-55-55-55
+                                +995 577-59-73-35
                             </div>
                             <div>
                                 <img src="/images/mail.svg" alt="" />

@@ -60,6 +60,7 @@
 }
 .member-box{
     width: 350px;
+    min-height: 550px;
     text-align: center;
     border: 1px solid #ddd;
     margin: 15px 0;
@@ -87,7 +88,7 @@
 .member-box .role{
     font-size: 15px;
     color:rgb(106, 109, 109);
-    margin: 5px 0px 30px 0px;
+    margin: 5px 0px 10px 0px;
 }
 .member-box .exp{
     line-height: 1.8;

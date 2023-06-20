@@ -85,7 +85,8 @@ const Contact = () => {
                         </div>
                         <div className="rounded-info">
                             <h4>ტელეფონი:</h4>
-                            <span>+995 555-55-55-55</span>
+                            <span>+995 577-59-73-35</span>
+
                         </div>
                     </div>
                     <div className="contact-info-block">
