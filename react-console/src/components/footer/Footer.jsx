@@ -38,11 +38,11 @@ const Footer = () => {
                         <ul className="footer-info">
                             <div>
                                 <img src="/images/footer-map.svg" alt="" />
-                                Tbilisi, University Street #13
+
                             </div>
                             <div>
                                 <img src="/images/mobile.svg" alt="" />
-                                +995 577-59-73-35
+                                +995 555-55-55-55
                             </div>
                             <div>
                                 <img src="/images/mail.svg" alt="" />
