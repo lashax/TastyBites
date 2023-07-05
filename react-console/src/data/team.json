@@ -1,42 +1,42 @@
 [
     { 
-        "name": "გიგი ბერიძე", 
-        "role": "Frontend Developer",
-        "image": "/images/gigi.jpg",
-        "comment": "“ამ პროექტზე მუშაობამ ბევრი რამ მასწავლა და გამზარდა, როგორც ვებ დეველოპერი”",
-        "github": "https://github.com/gigi-beridze",
-        "facebook": "https://www.facebook.com/gigi.beridze.71"
+        "name": "",
+        "role": "",
+        "image": "",
+        "comment": "",
+        "github": "",
+        "facebook": ""
     },
     { 
-        "name": "ლაშა შეროზია", 
-        "role": "Backend Developer",
-        "image": "/images/lasha.jpg",
-        "comment": "“ჯგუფურად პროექტზე მუშაობა სტრესული, მაგრამ ამავე დროს საინტერესო და სასიამოვნო პროცესი იყო.”",
-        "github": "https://github.com/lashax?tab=repositories",
-        "facebook": "https://www.facebook.com/lashasherozia05"
+        "name": "",
+        "role": "",
+        "image": "",
+        "comment": "",
+        "github": "",
+        "facebook": ""
     },
     { 
-        "name": "მარიამ ანთიძე", 
-        "role": "Project Planner | Web Designer | Information Researcher",
-        "image": "/images/mariami.jpg",
-        "comment": " “ამ პროექტზე მუშაობისას გზად შეგვხვდა ბევრი სირთულე და საინტერესო გამოწვევა, რამაც ჯგუფის ყველა წევრი გაგვზარდა როგორც პროფესიონალი და შეგვმატა გამოცდილება.”",
-        "github": "https://github.com/Mariam-Antidze?tab=repositories",
-        "facebook": "https://www.facebook.com/profile.php?id=100004783933369"
+        "name": "",
+        "role": "",
+        "image": "",
+        "comment": " ",
+        "github": "",
+        "facebook": ""
     },
     { 
-        "name": "ლანა სანდროშვილი", 
-        "role": "Manual Tester | Information Researcher",
-        "image": "/images/lana.jpg",
-        "comment": "“ამ ვებ-საიტის ტესტირება ჩემთვის მეტად საინტერესო იყო. მასწავლა დეტალებზე ორიენტირების მნიშვნელობა და ჯგუფური მუშაობა. ”",
-        "github": "github.com",
-        "facebook": "https://www.facebook.com/lana.sandroshvili" 
+        "name": "",
+        "role": "",
+        "image": "",
+        "comment": "",
+        "github": "",
+        "facebook": ""
     },
     { 
-        "name": "ნინო დაუთაშვილი", 
-        "role": "MarkUp Developer | Market Research Analyst | Information Researcher",
-        "image": "/images/nino.jpg",
-        "comment": "“ჩვენს პროფესიაში გუნდური მუშაობის უნარის გამომიშავება ძალიან მნიშვნელოვანია, ამ პროექტმა კი ამის შესაძლებლობა მოგვცა.”",
-        "github": "https://github.com/n1nni",
-        "facebook": "https://www.facebook.com/profile.php?id=100010326634316" 
+        "name": "",
+        "role": "",
+        "image": "",
+        "comment": "",
+        "github": "",
+        "facebook": ""
     }
 ]
