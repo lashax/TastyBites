@@ -93,10 +93,6 @@ const Contact = () => {
                         <div className="rounded">
                             <img src={LocationIcon} alt="locationIcon" />
                         </div>
-                        <div className="rounded-info">
-                            <h4>მისამართი:</h4>
-                            <span>თსუ მე-11 კორპუსი(განივი), უნივერსიტეტის ქ.13</span>
-                        </div>
                     </div>
                     <div className="contact-info-block">
                         <div className="rounded">
