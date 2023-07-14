@@ -25,7 +25,7 @@ public class Review {
 
     private Date publishDate;
 
-    private Double score;
+    private double score;
 
     public int getId() {
         return id;
@@ -67,11 +67,11 @@ public class Review {
         this.publishDate = publishDate;
     }
 
-    public Double getScore() {
+    public double getScore() {
         return score;
     }
 
-    public void setScore(Double score) {
+    public void setScore(double score) {
         this.score = score;
     }
 }

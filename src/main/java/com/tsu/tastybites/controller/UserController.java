@@ -1,6 +1,7 @@
 package com.tsu.tastybites.controller;
 
 import com.tsu.tastybites.entity.User;
+import com.tsu.tastybites.model.LoginRequest;
 import com.tsu.tastybites.model.LoginResponse;
 import com.tsu.tastybites.service.UserService;
 import org.springframework.http.ResponseEntity;
@@ -33,8 +34,8 @@ public class UserController {
      * მომხმარებლის შესვლა (დალოგინება) იმეილისა და პაროლის მეშვეობით.
      */
     @PostMapping(path = "/login")
-    public ResponseEntity<LoginResponse> loginUser(@RequestBody User user) {
-        LoginResponse loginResponse = userService.loginUser(user);
+    public ResponseEntity<LoginResponse> loginUser(@RequestBody LoginRequest loginRequest) {
+        LoginResponse loginResponse = userService.loginUser(loginRequest);
         return ResponseEntity.ok(loginResponse);
     }
 }

@@ -10,6 +10,7 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 
 import java.math.BigDecimal;
+import java.util.Date;
 import java.util.List;
 
 @Entity
@@ -28,7 +29,9 @@ public class Recipe {
     @OneToMany
     private List<Review> reviews;
 
-    private String name;
+    private String title;
+
+    private Date publishDate;
 
     private BigDecimal price;
 
@@ -40,8 +43,7 @@ public class Recipe {
 
     private Double score;
 
-    // hours
-    private Double timeToCook;
+    private Double hoursToCook;
 
     private Integer calories;
 
@@ -80,12 +82,20 @@ public class Recipe {
         this.reviews = reviews;
     }
 
-    public String getName() {
-        return name;
+    public String getTitle() {
+        return title;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setTitle(String name) {
+        this.title = name;
+    }
+
+    public Date getPublishDate() {
+        return publishDate;
+    }
+
+    public void setPublishDate(Date publishDate) {
+        this.publishDate = publishDate;
     }
 
     public BigDecimal getPrice() {
@@ -128,12 +138,12 @@ public class Recipe {
         this.score = score;
     }
 
-    public Double getTimeToCook() {
-        return timeToCook;
+    public Double getHoursToCook() {
+        return hoursToCook;
     }
 
-    public void setTimeToCook(Double timeToCook) {
-        this.timeToCook = timeToCook;
+    public void setHoursToCook(Double timeToCook) {
+        this.hoursToCook = timeToCook;
     }
 
     public Integer getCalories() {
